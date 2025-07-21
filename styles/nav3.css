@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #333;
+    padding: 10px 20px;
+}
+li a:hover{
+    color: aquamarine;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+}
+.nav-list li a{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px;
+}
