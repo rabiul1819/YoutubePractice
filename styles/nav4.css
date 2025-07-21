@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#444;
+    padding: 15px 0;
+}
+.container{
+    width: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-ul-list{
+    list-style: none;
+    text-align: center;
+}
+.nav-ul-list li{
+        display: inline-block;
+        margin: 0 20px;
+}
+.nav-ul-list  li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+}
+.nav-ul-list li a:hover{
+    color: #f7c700;
+}
+
