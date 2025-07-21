@@ -1,0 +1,52 @@
+/* Remove underline from all link */
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: tomato;
+    font-family:calibri,sans-serif;
+    padding: 0 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+li a:hover{
+    color: yellowgreen;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    transition:background 0.3s;
+
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+button:hover{
+    background-color:yellow;
+}
